@@ -35,7 +35,7 @@ def test_setup_names_admin_login_and_invite(client, capsys):
 def test_the_about_page_links_this_installations_source(client, monkeypatch):
     from app.config import settings
 
-    assert client.get("/api/ueber").json()["repo"] == "https://github.com/marcmeier/screenmates"
+    assert client.get("/api/ueber").json()["repo"] == "https://github.com/schna5bel/screenmates"
     monkeypatch.setattr(settings, "source_url", "https://git.example.org/fork")
     assert client.get("/api/ueber").json()["repo"] == "https://git.example.org/fork"
 

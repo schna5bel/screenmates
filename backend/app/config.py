@@ -54,7 +54,7 @@ class Settings(BaseSettings):
 
     # Where the source of this installation is (AGPL-3.0 §13): linked on the about page.
     # Change it when you run a modified version.
-    source_url: str = "https://github.com/marcmeier/screenmates"
+    source_url: str = "https://github.com/schna5bel/screenmates"
 
     # Setup code for the first name (it becomes admin). Empty: one is made and written to the log.
     setup_token: str = ""

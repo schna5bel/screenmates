@@ -198,7 +198,7 @@ def test_a_date_set_shortly_before_needs_no_extra_reminder(runde):
 @pytest.mark.parametrize(
     ("einstellung", "gesendet_als"),
     [
-        ("https://github.com/marcmeier/screenmates", "https://github.com"),
+        ("https://github.com/schna5bel/screenmates", "https://github.com"),
         ("https://screenmates.example.org/", "https://screenmates.example.org"),
         ("mailto:admin@example.org", "mailto:admin@example.org"),
     ],

@@ -1,7 +1,7 @@
 # Contributing
 
 Bug reports, ideas and pull requests are welcome. For bugs and feature requests, use the
-[issue forms](https://github.com/marcmeier/screenmates/issues/new/choose). Security issues go through
+[issue forms](https://github.com/schna5bel/screenmates/issues/new/choose). Security issues go through
 [SECURITY.md](SECURITY.md) instead.
 
 ## Setup
@@ -9,7 +9,7 @@ Bug reports, ideas and pull requests are welcome. For bugs and feature requests,
 Python 3.12+ and Node 20+ (CI uses 3.13 and 24).
 
 ```bash
-git clone https://github.com/marcmeier/screenmates.git
+git clone https://github.com/schna5bel/screenmates.git
 cd screenmates
 make install
 make dev            # backend on :8000, Vite on :5173
