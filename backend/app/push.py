@@ -110,7 +110,7 @@ def kontakt() -> str:
     like https://github.com/user/repo is cut down to https://github.com. Without
     either setting, the project's address stands in.
     """
-    k = (settings.push_contact or settings.public_url or "https://github.com/marcmeier/screenmates").strip()
+    k = (settings.push_contact or settings.public_url or "https://github.com/schna5bel/screenmates").strip()
     if k.lower().startswith("https://"):
         return f"https://{urlsplit(k).hostname}"
     return k

@@ -6,8 +6,8 @@
 
 A self-hosted web app for movie nights with friends.
 
-[![CI](https://github.com/marcmeier/screenmates/actions/workflows/ci.yml/badge.svg)](https://github.com/marcmeier/screenmates/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/marcmeier/screenmates)](https://github.com/marcmeier/screenmates/releases)
+[![CI](https://github.com/schna5bel/screenmates/actions/workflows/ci.yml/badge.svg)](https://github.com/schna5bel/screenmates/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/schna5bel/screenmates)](https://github.com/schna5bel/screenmates/releases)
 [![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
 
 <img src="docs/assets/hero.png" alt="screenmates on desktop and phone" width="100%">
@@ -103,13 +103,13 @@ invite-only. The UI is available in English and German.
 ### Docker Compose
 
 ```bash
-git clone https://github.com/marcmeier/screenmates.git
+git clone https://github.com/schna5bel/screenmates.git
 cd screenmates
 cp backend/.env.example backend/.env   # add your TMDB key here
 docker compose up -d
 ```
 
-This pulls the released image (`ghcr.io/marcmeier/screenmates`); `SCREENMATES_VERSION=1.0.0` in the
+This pulls the released image (`ghcr.io/schna5bel/screenmates`); `SCREENMATES_VERSION=1.0.0` in the
 environment or in a `.env` next to `compose.yaml` pins a version. `docker compose up -d --build` builds
 your checkout instead.
 
@@ -254,7 +254,7 @@ runs both on every push, plus the E2E suite against the Docker Compose setup.
 - TV series
 - Cutting and sharing clips
 
-Ideas and bug reports are welcome as [issues](https://github.com/marcmeier/screenmates/issues).
+Ideas and bug reports are welcome as [issues](https://github.com/schna5bel/screenmates/issues).
 
 ## Contributing
 

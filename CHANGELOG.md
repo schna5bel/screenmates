@@ -3,9 +3,15 @@
 All notable changes to screenmates are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/). Releases are published on
-[GitHub](https://github.com/marcmeier/screenmates/releases).
+[GitHub](https://github.com/schna5bel/screenmates/releases).
 
 ## Unreleased
+
+### Changed
+
+- The GitHub account is now called schna5bel: links, the source address in the app and the image
+  name (`ghcr.io/schna5bel/screenmates`) follow it. The old image name no longer resolves, so update
+  `image:` in your compose file.
 
 ## 1.0.2 – 2026-10-28
 

@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please check the [existing issues](https://github.com/marcmeier/screenmates/issues) first. Security issues go in a [private report](https://github.com/marcmeier/screenmates/security/advisories/new).
+        Please check the [existing issues](https://github.com/schna5bel/screenmates/issues) first. Security issues go in a [private report](https://github.com/schna5bel/screenmates/security/advisories/new).
   - type: textarea
     id: what
     attributes:

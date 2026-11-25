@@ -5,7 +5,7 @@ Only the latest release gets security fixes.
 ## Reporting
 
 Please don't open public issues for security problems. Use GitHub's
-[private vulnerability reporting](https://github.com/marcmeier/screenmates/security/advisories/new)
+[private vulnerability reporting](https://github.com/schna5bel/screenmates/security/advisories/new)
 and include what you found, how to reproduce it, and the version (shown on the about page).
 
 ## Running it safely
